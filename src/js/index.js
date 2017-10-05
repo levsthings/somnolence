@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
 
 import createStoreWithMiddleware from './store'
-import App from './components/App/App'
+import Game from './components/Game/Game'
 
 ReactDOM.render(
     <Provider store={createStoreWithMiddleware()}>
-        <App />
+        <Game />
     </Provider>,
     document.getElementById('app')
 )

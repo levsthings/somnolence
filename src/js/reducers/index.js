@@ -1,5 +1,5 @@
-import dataReducer from './dataReducer'
+import dataReducer from './commandLineReducer'
 
 export {
-    dataReducer
+    commandLineReducer
 }

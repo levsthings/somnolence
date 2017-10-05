@@ -1,16 +1,22 @@
 import ACTIONS from '../constants'
 
 export default {
-    updateClickCount: (num) => {
+    updateUserCommand: (msg) => {
         return {
-            type: ACTIONS.UPDATE_CLICK_COUNT,
-            payload: num
+            type: ACTIONS.UPDATE_USER_COMMAND,
+            data: msg
         }
     },
-    getChuckNorrisJoke: (payload) => {
+    registerUserCommand: (msg) => {
         return {
-            type: ACTIONS.GET_CHUCK_NORRIS_JOKE,
-            payload
+            type: ACTIONS.REGISTER_USER_COMMAND,
+            data: msg
+        }
+    },
+    addToHistory: (data) => {
+        return {
+            type: ACTIONS.ADD_TO_HISTORY,
+            data
         }
     }
 }
