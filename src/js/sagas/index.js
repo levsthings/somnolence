@@ -2,16 +2,16 @@
 // import {call, put} from 'redux-saga/effects'
 // import ACTIONS from '../constants'
 
-function* mockAsync(action) {
+// function* mockAsync(action) {
 
-}
+// }
 
-function* mockWatch() {
+// function* mockWatch() {
 
-}
+// }
 
 export default function* rootSaga() {
     yield [
-        mockWatch()
+
     ]
 }

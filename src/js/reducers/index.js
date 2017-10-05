@@ -1,4 +1,4 @@
-import dataReducer from './commandLineReducer'
+import commandLineReducer from './commandLineReducer'
 
 export {
     commandLineReducer

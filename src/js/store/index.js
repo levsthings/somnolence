@@ -6,7 +6,7 @@ import rootSaga from '../sagas'
 
 export default function createStoreWithMiddleware() {
     const rootReducer = combineReducers({
-        root: dataReducer
+        root: commandLineReducer
     })
 
     const sagaMiddleware = createSagaMiddleware()
