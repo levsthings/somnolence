@@ -1,4 +1,4 @@
-<h1 align='center'>Ship A Client-Side React SPA</h1>
+<h1 align='center'>Somnolence</h1>
 
 [![Build Status](https://img.shields.io/circleci/project/github/levsthings/somnolence.svg?style=flat-square)](https://circleci.com/gh/levsthings/somnolence.svg?style=svg)
 
