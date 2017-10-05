@@ -1,12 +1,12 @@
 {
-  "name": "react-spa-client-clientside-cdn",
-  "description": "client",
+  "name": "somnolence",
+  "description": "open source front-end for somnolence",
   "version": "1.0.0",
   "author": "levsthings",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShippableBoilerplates/react-spa-client-clientside-cdn"
+    "url": "https://github.com/levsthings/somnolence"
   },
   "scripts": {
     "cleanup": "rimraf ./public",
