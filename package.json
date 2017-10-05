@@ -52,14 +52,17 @@
     "prop-types": "^15.5.10",
     "pug": "^2.0.0-rc.4",
     "pug-html-loader": "^1.1.5",
+    "redux-devtools-extension": "^2.13.2",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "redux-devtools-extension": "^2.13.2",
     "redux-saga": "^0.15.6",
-    "rimraf": "^2.6.2",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.8.2"
+    "uuid": "^3.1.0"
   }
 }
